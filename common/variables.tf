@@ -46,14 +46,14 @@ variable "workload_instance_type" {
 
 variable "hosted_zone" {
   type        = string
-  default     = "tigera.rocks"
+  default     = "bytesec.ca"
   description = "The hosted zone domain to be used for the Rancher server"
 }
 
 variable "domain_prefix" {
   type        = string
   default     = "rancher"
-  description = "Domain prefix of the Rancher server. https://domain_prefix.hosted_zone (ie: https://rancher.tigera.rocks)"
+  description = "Domain prefix of the Rancher server. https://domain_prefix.hosted_zone (ie: https://rancher.bytesec.ca)"
 }
 
 ###############################################################################
