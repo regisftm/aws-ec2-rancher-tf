@@ -179,7 +179,7 @@ aws_subnet_id = "subnet-035c3d2350d89c030"
 private_key = <sensitive>
 rancher_server_private_ip = "100.0.14.233"
 rancher_server_public_ip = "35.183.125.29"
-rancher_url = "rancher.tigera.rocks"
+rancher_url = "rancher.bytesec.ca"
 vpc_id = "vpc-06e23cbacb3622e0d"
 
 $
@@ -283,7 +283,7 @@ admin_token = <sensitive>
 $
 ```
 
-Perfect! Another layer deployed. Now you have the Rancher Server up and running. Test the access to your Rancher server using the following https address: http://<`domain_prefix`>.<`hosted-zone`>. In my case, https://rancher.tigera.rocks.
+Perfect! Another layer deployed. Now you have the Rancher Server up and running. Test the access to your Rancher server using the following https address: http://<`domain_prefix`>.<`hosted-zone`>. In my case, https://rancher.bytesec.ca.
 
 The username to log in is `admin` and the password is the one you speficied in the variable `admin_password` in the `variable.tf` file at the `common` folder.
 
