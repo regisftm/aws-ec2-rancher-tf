@@ -73,8 +73,8 @@ The following table describes the variables:
 | aws_az | AWS availability zone to be used in the deployment | b |
 | vpc_cidr | VPC CIDR for the EC2 instances | 100.0.0.0/16 |
 | instance_type | Instance type used for Rancher server EC2 instance | t3a.medium |
-| hosted_zone | The hosted zone domain to be used for the Rancher server | tigera.rocks |
-| domain_prefix |Domain prefix of the Rancher server. https://domain_prefix.hosted_zone (ie: https://rancher.tigera.rocks) | rancher |
+| hosted_zone | The hosted zone domain to be used for the Rancher server | bytesec.ca |
+| domain_prefix |Domain prefix of the Rancher server. https://domain_prefix.hosted_zone (ie: https://rancher.bytesec.ca) | rancher |
 | rancher_kubernetes_version | Kubernetes version to use for Rancher server cluster | v1.22.9+k3s1 |
 | cert_manager_version | Version of cert-manager to install alongside Rancher (format: 0.0.0) | 1.7.1 |
 | rancher_version | Rancher server version (format: v0.0.0) | 2.6.5 |
